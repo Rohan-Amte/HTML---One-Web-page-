@@ -1,0 +1,48 @@
+h1{
+    background-color: rgb(200, 167, 231);
+    color: blue;
+   
+}
+ p.dotted{
+    border-style: dotted;
+    border-width: 4px;
+    border-color: brown;
+ }
+ p.dashed{
+    border-style: dashed;
+ }
+ p.solid{
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+ }
+ p.double{
+    border-style: double;
+    padding-top: 3px;
+ }
+ p.groove{
+    border-style: groove;
+    background-color: aqua;
+    outline-style: dashed;
+    outline-offset: 5px;
+ }
+ p.ridge{
+    border-style: ridge;
+ }
+ p.inset{
+    border-style: inset;
+ }
+ p.outset{
+    border-style: outset;
+ }
+ p.mixed{
+    border-style: dashed dotted double solid;
+ }
+ p{
+    height: 30  px;
+ }
+ body{
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+ }
